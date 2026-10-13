@@ -1,0 +1,74 @@
+/* Font Verdana e dimensione a tutta la pagina campi*/
+body, input, select, textarea, button {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+/* contenitore per titolo, tabella pulsanti allineati */
+.contenitore {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/* Titolo con trattini centrato sopra form */
+.titolo {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+/* Tabella separazione celle per  righe bianche */
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+td {
+    padding: 2px 4px;
+}
+
+/* Colonna di sinistra sfondo LightBlue, testo in alto e non a capo */
+td.etichetta {
+    background-color: LightBlue;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 175px;
+}
+
+/* Larghezze specifiche campi */
+.input-modello {
+    width: 330px;
+}
+
+.input-corto {
+    width: 110px;
+}
+
+.input-prezzo {
+    width: 140px;
+}
+
+.input-targa {
+    width: 220px;
+}
+
+textarea {
+    width: 420px;
+    height: 150px;
+    resize: both;
+}
+
+/* Spazio sopra pulsanti Invia  Cancella */
+.pulsanti {
+    margin-top: 8px;
+}
+
+/* tabella di arrivo PHP */
+.tabella-riepilogo {
+    border-collapse: collapse;
+}
+
+.tabella-riepilogo td {
+    border: 1px solid #777;
+    padding: 6px 12px;
+}
